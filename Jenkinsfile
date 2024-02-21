@@ -12,6 +12,7 @@ pipeline {
         // コメントアウト
         // sh "test -f ~/.docker/config.json"
         // sh "cat ~/.docker/config.json | grep docker.io"
+        sh "ls"
       }
     }
     stage('Build') {
